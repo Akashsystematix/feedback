@@ -1,28 +1,45 @@
 import React, {Component} from 'react'
-import {createAppContainer ,createStackNavigator} from 'react-navigation';
+import {createAppContainer ,createSwitchNavigator,createStackNavigator} from 'react-navigation';
 
 import Home from './components/Home'
 import Login from './components/Login'
 const AppStack =createStackNavigator(
     {
-      Login:{screen:Login},
+    
     Home: {screen: Home}
   
-   },
-    
-    {
-      defaultNavigationOptions: {
-        headerStyle: {
-            backgroundColor: '#E8CBC0'
-        
-        }
-     }
-    }
-    
-    
-    );
+   },{
+   defaultnavigationOptions: {
+    header: null,
+  }
+}
+
+
+
+ );
+
+
+ const Authstack=createStackNavigator(
+{
+
+  Login:{screen:Login},
+
+}
+
+
+);
+
+const Switchstack=createSwitchNavigator(
+{
+Authstack:{screen:Authstack},
+AppStack:{screen:AppStack},
+
+}
+)
+
+
   
-const AppContainer = createAppContainer(AppStack);
+const AppContainer = createAppContainer(Switchstack);
 
 
 export default class AppNavigation extends Component {

@@ -1,9 +1,3 @@
-import * as apiActions from './apiActions';
-import * as userActions from './userActions';
+import axios from 'axios';
+export * from './UserAction';
 
-const actions = {
-  ...apiActions,
-  ...userActions
-};
-
-export { actions };

@@ -8,12 +8,19 @@ const constants = {
 
 var styles = StyleSheet.create({container: {
     flex: 1,
-    flexDirection: 'column',
+    width:width,
+    height:height
   },
   logoContainer: {alignItems: 'center', justifyContent: 'center', flex: 1},
+  
+  
   logo: {
-    width: 128,
-    height: 128,
+
+    flex: 1,
+    bottom:200,
+    width: width-40,
+    height: 200,
+    resizeMode: 'contain'
   },
   title: {
     color: '#302b63',
@@ -52,20 +59,18 @@ var styles = StyleSheet.create({container: {
   },
 
   buttonContainer: {
-    backgroundColor: 'transparent',
+    backgroundColor: 'purple',
     paddingVertical: 10,
     left: 0,
     right: 0,
     bottom: 0
 
   },
-  gradient: {
+  loginbg: {
     height: height,
     width: width,
     flex: 1,
-
-
-  },
+ },
   buttonText:
       {textAlign: 'center', color: 'white', fontWeight: 'bold', fontSize: 13}
 });
