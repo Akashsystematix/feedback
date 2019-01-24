@@ -50,7 +50,7 @@ class Login extends Component {
         this.setState({
           numberVal: false,
         })
-        console.warn('invalid number')
+     //   console.warn('invalid number')
       }
     }
   }
@@ -79,8 +79,6 @@ class Login extends Component {
             source={require('../common/resources/logo_login.png')}>
           </Image>
 
-
-
           <View style={styles.infoContainer}>
             <TextInput style={[styles.input, !this.state.numberVal ? styles.error : null]}
               onChangeText={(text) => this.validate(text, 'number')}
@@ -88,6 +86,7 @@ class Login extends Component {
               placeholderTextColor='purple'
               keyboardType='number-pad'
               returnKeyType='next'
+              maxLength= {10}
               autoCorrect={
                 false}
             />
@@ -131,17 +130,29 @@ class Login extends Component {
     form.append('osName', 'ios');
     form.append('user_id', '1');
 
+    if(this.state.number != '' && this.state.number.length ==10){
+      this.props.login(form, (response) => {
+        if (response != undefined && response.data.status == true && response.status ==200) {
+          console.log('loginNavigate',response);
+       //   alert(JSON.stringify(response))
+       let name = response.data.name;
+             this.props.navigation.navigate('Home', { name: name})
+        }
+        else {
+         alert(response.data.messaage)
+        }
+      });
+    }
+    else{
+     if(this.state.number == ''){
+       alert('Plaese enter the required field')
+     }
+     else {
+       alert('Please enter valid mobile number with 10 digits.')
+     }
+    }
    // const data = { mobile:number, password:uniqueId, isRetry:'0',appVersion: '1.0',fcmId: '',osName:'ios', user_id:'1' }
-    this.props.login(form, (response) => {
-      if (response != undefined) {
-        console.log('loginNavigate',response);
-        //alert(JSON.stringify(response))
-           this.props.navigation.navigate('Home')
-      }
-      else {
 
-      }
-    });
   
   }
 

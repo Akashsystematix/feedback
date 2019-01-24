@@ -4,9 +4,17 @@ ADDED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.
 INJECTED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-gesture-handler] /Users/risha/Downloads/feedback/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-device-info] /Users/risha/Downloads/feedback/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-22:12
 MERGED from [:react-native-firebase] /Users/risha/Downloads/feedback/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [com.facebook.react:react-native:0.57.8] /Users/risha/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/fa875eb96b2b840286e3638fbd0ef054/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/803010173ebc7fb9c2edd8a1469e2468/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/82d8200a548de9ed9459df03b58b044c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/9dd5093b6b5d2961387c5af620cb1b9d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e94452c9e5a42b124e24d15aeebefc3d/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/09dccced6d1c69b68bcfb9d8671fa788/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/a16d6aaad782de819821621d6467f1ce/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/7a7cfefa94486612ae62bc613cd58eaa/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:27.1.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3f30e43813dbe7363095d3d80bb03a47/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:multidex:1.0.2] /Users/risha/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/447fcc65e6e45a5023aee2f28901cf69/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6964ae54bf4371f23084acd82f32cf18/AndroidManifest.xml:17:1-22:12
@@ -49,6 +57,10 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml:4:5-67
 MERGED from [:react-native-firebase] /Users/risha/Downloads/feedback/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
 MERGED from [:react-native-firebase] /Users/risha/Downloads/feedback/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/82d8200a548de9ed9459df03b58b044c/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/82d8200a548de9ed9459df03b58b044c/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/9dd5093b6b5d2961387c5af620cb1b9d/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/9dd5093b6b5d2961387c5af620cb1b9d/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
@@ -59,8 +71,22 @@ MERGED from [com.facebook.react:react-native:0.57.8] /Users/risha/.gradle/caches
 		ADDED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml:5:22-75
 application
 ADDED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [:react-native-device-info] /Users/risha/Downloads/feedback/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20:19
+MERGED from [:react-native-device-info] /Users/risha/Downloads/feedback/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20:19
 MERGED from [com.facebook.react:react-native:0.57.8] /Users/risha/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/fa875eb96b2b840286e3638fbd0ef054/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.react:react-native:0.57.8] /Users/risha/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/fa875eb96b2b840286e3638fbd0ef054/AndroidManifest.xml:13:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/82d8200a548de9ed9459df03b58b044c/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/82d8200a548de9ed9459df03b58b044c/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/9dd5093b6b5d2961387c5af620cb1b9d/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/9dd5093b6b5d2961387c5af620cb1b9d/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e94452c9e5a42b124e24d15aeebefc3d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e94452c9e5a42b124e24d15aeebefc3d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/09dccced6d1c69b68bcfb9d8671fa788/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/09dccced6d1c69b68bcfb9d8671fa788/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/a16d6aaad782de819821621d6467f1ce/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/a16d6aaad782de819821621d6467f1ce/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/7a7cfefa94486612ae62bc613cd58eaa/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/7a7cfefa94486612ae62bc613cd58eaa/AndroidManifest.xml:22:5-26:19
 MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/3dfc9277e49b7e06cedbf3c82cdc73a3/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/3dfc9277e49b7e06cedbf3c82cdc73a3/AndroidManifest.xml:11:5-20
 MERGED from [org.webkit:android-jsc:r174650] /Users/risha/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/623c0bb5da2165b55a6df2d0ee7fd322/AndroidManifest.xml:2:3-17
@@ -103,12 +129,28 @@ uses-sdk
 INJECTED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-gesture-handler] /Users/risha/Downloads/feedback/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/risha/Downloads/feedback/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-device-info] /Users/risha/Downloads/feedback/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-device-info] /Users/risha/Downloads/feedback/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-firebase] /Users/risha/Downloads/feedback/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-firebase] /Users/risha/Downloads/feedback/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.57.8] /Users/risha/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/fa875eb96b2b840286e3638fbd0ef054/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.57.8] /Users/risha/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/fa875eb96b2b840286e3638fbd0ef054/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/803010173ebc7fb9c2edd8a1469e2468/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/803010173ebc7fb9c2edd8a1469e2468/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/82d8200a548de9ed9459df03b58b044c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/82d8200a548de9ed9459df03b58b044c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/9dd5093b6b5d2961387c5af620cb1b9d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/9dd5093b6b5d2961387c5af620cb1b9d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e94452c9e5a42b124e24d15aeebefc3d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e94452c9e5a42b124e24d15aeebefc3d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/09dccced6d1c69b68bcfb9d8671fa788/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/09dccced6d1c69b68bcfb9d8671fa788/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/a16d6aaad782de819821621d6467f1ce/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/a16d6aaad782de819821621d6467f1ce/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/7a7cfefa94486612ae62bc613cd58eaa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/7a7cfefa94486612ae62bc613cd58eaa/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3f30e43813dbe7363095d3d80bb03a47/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3f30e43813dbe7363095d3d80bb03a47/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:multidex:1.0.2] /Users/risha/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/447fcc65e6e45a5023aee2f28901cf69/AndroidManifest.xml:20:5-43
@@ -159,6 +201,20 @@ INJECTED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManife
 		INJECTED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml
+receiver#com.learnium.RNDeviceInfo.RNDeviceReceiver
+ADDED from [:react-native-device-info] /Users/risha/Downloads/feedback/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-19:20
+	android:enabled
+		ADDED from [:react-native-device-info] /Users/risha/Downloads/feedback/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-35
+	android:exported
+		ADDED from [:react-native-device-info] /Users/risha/Downloads/feedback/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [:react-native-device-info] /Users/risha/Downloads/feedback/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-70
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /Users/risha/Downloads/feedback/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-18:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /Users/risha/Downloads/feedback/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:17-79
+	android:name
+		ADDED from [:react-native-device-info] /Users/risha/Downloads/feedback/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:25-76
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [:react-native-firebase] /Users/risha/Downloads/feedback/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-68
 	android:name
@@ -167,6 +223,26 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:react-native-firebase] /Users/risha/Downloads/feedback/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-79
 	android:name
 		ADDED from [:react-native-firebase] /Users/risha/Downloads/feedback/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/82d8200a548de9ed9459df03b58b044c/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/9dd5093b6b5d2961387c5af620cb1b9d/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/9dd5093b6b5d2961387c5af620cb1b9d/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/82d8200a548de9ed9459df03b58b044c/AndroidManifest.xml:23:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e94452c9e5a42b124e24d15aeebefc3d/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e94452c9e5a42b124e24d15aeebefc3d/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e94452c9e5a42b124e24d15aeebefc3d/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e94452c9e5a42b124e24d15aeebefc3d/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/7a7cfefa94486612ae62bc613cd58eaa/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/7a7cfefa94486612ae62bc613cd58eaa/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/risha/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/7a7cfefa94486612ae62bc613cd58eaa/AndroidManifest.xml:24:13-58
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from /Users/risha/Downloads/feedback/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
