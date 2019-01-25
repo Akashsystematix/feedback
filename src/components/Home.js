@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import {
     Text, View,
-    StatusBar,
-    TouchableOpacity,
-    KeyboardAvoidingView, Dimensions,
     StyleSheet
 } from 'react-native'
 import { CardViewWithImage } from 'react-native-simple-card-view';
@@ -42,31 +39,45 @@ componentWillMount(){
 }
 
     onPressSmily(val) {
-        //const { happy, neutral, sad, date, time } = this.state;
+        const { happy, neutral, sad, date, time } = this.state;
+        var happy_face = '';
+        var neutral_face = '';
+        var sad_face = '';
+
         if (val == 'happy') {
+            happy_face = happy + 1;
+            happy_face="Happy"
             this.setState({
-                happy: this.state.happy + 1,
+                happy:happy_face,
                 isClickedhappy: true,
                 isClickedNeutral: false,
                 isClickedSad: false
             });
-            this.handleSubmit(this.state.happy);
+            this.handleSubmit(happy_face);
         }
         if (val == 'neutral') {
+            neutral_face = neutral + 1;
+            neutral_face="Neutral"
+
             this.setState({
-                neutral: neutral + 1,
+                neutral: neutral_face,
                 isClickedhappy: false,
                 isClickedNeutral: true,
                 isClickedSad: false
             });
+            this.handleSubmit(neutral_face);
         }
         if (val == 'sad') {
+            sad_face = sad + 1;
+            sad_face="Sad"
+
             this.setState({
-                sad: sad + 1,
+                sad: sad_face,
                 isClickedhappy: false,
                 isClickedNeutral: false,
                 isClickedSad: true
             });
+            this.handleSubmit(sad_face);
         }
 
 
@@ -77,10 +88,9 @@ componentWillMount(){
     handleSubmit(mood) {
         let items = {
             name: this.state.name,
-            happy: mood,
-            neutral: this.state.neutral,
-            sad: this.state.sad,
-            date: this.state.date
+            mood:mood,
+            date: this.state.date,
+            time:this.state.time
         }
         this.addItem(items);
     }
