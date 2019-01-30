@@ -14,11 +14,11 @@ class App extends Component {
   componentWillMount(){
     firebase.initializeApp({
       apiKey: "AIzaSyAkw-T8skKOCT2h5y86qL_oZ2YNumZjXcA",
-      authDomain: "feedback-30f79.firebaseapp.com",
-      databaseURL: "https://feedback-30f79.firebaseio.com",
-      projectId: "feedback-30f79",
-      storageBucket: "feedback-30f79.appspot.com",
-      messagingSenderId: "26374329888"
+    authDomain: "feedback-30f79.firebaseapp.com",
+    databaseURL: "https://feedback-30f79.firebaseio.com",
+    projectId: "feedback-30f79",
+    storageBucket: "feedback-30f79.appspot.com",
+    messagingSenderId: "26374329888"
     })
     }
 

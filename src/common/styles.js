@@ -17,9 +17,8 @@ var styles = StyleSheet.create({container: {
   logo: {
 
     flex: 1,
-    bottom:200,
-    width: width-40,
-    height: 200,
+  width: width-80,
+    height: '100%',
     resizeMode: 'contain'
   },
   title: {
@@ -31,45 +30,59 @@ var styles = StyleSheet.create({container: {
     opacity: 0.9
   },
   infoContainer: {
-    position: 'absolute',
-    left: 0,
-    right: 0,
-    bottom: 0,
-    height: 200,
-    padding: 20,
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderWidth: 0.5,
+    borderColor: 'black',
+    height: '7%',
+    width:'90%',
+    bottom:220
     // backgroundColor: 'red'
   },
   input: {
     backgroundColor: 'rgba(255,255,255,0.2)',
     borderColor: '#646FA4',
-    borderWidth: 1,
-    color: 'purple',
-    fontSize: 20,
-    fontWeight: '500',
-    marginTop: 10,
+    color: 'black',
+    justifyContent:'center',
+    alignItems: 'center',
+    fontSize: 18,
+    fontWeight:'500',
+    height: '100%',
+    width:'100%',
     opacity: 0.75
   },
 
   error: {
 
-    borderWidth: 1,
-    borderColor: 'red'
+    borderWidth: 0.5,
+    borderColor: 'red',
+    width:'91%'
 
 
   },
 
   buttonContainer: {
-    backgroundColor: 'purple',
-    paddingVertical: 10,
-    left: 0,
-    right: 0,
-    bottom: 0
+    backgroundColor: '#560F71',
+    padding:10,
+    justifyContent:'center',
+    left: 20,
+    right: 20,
+    width:'90%',
+    bottom: 200
 
   },
+  phone_icon:{
+    padding: 10,
+    margin: 5,
+    height: 15,
+    width: 15,
+    resizeMode: 'stretch',
+    alignItems: 'center',
+},
+
   loginbg: {
     height: height,
     width: width,
-    flex: 1,
  },
   buttonText:
       {textAlign: 'center', color: 'white', fontWeight: 'bold', fontSize: 13}

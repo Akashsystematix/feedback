@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import {
-  Image, StatusBar, Text, TextInput, TouchableOpacity, View,
+  Image, StatusBar, Text,ImageBackground, TextInput, TouchableOpacity, View,AsyncStorage
 } from 'react-native';
 import styles from '../common/styles';
 import { connect } from 'react-redux';
 import { login } from '../actions/userActions';
 import DeviceInfo from 'react-native-device-info';
+import {Images_common} from '../common/utils';
+
 let responseDta = []
 class Login extends Component {
 
@@ -55,7 +57,10 @@ class Login extends Component {
     }
   }
 
-
+  signInAsync = async () => {
+    await AsyncStorage.setItem('userToken', 'responseDta');
+    console.log(userToken)
+  };
 
 
 
@@ -70,19 +75,21 @@ class Login extends Component {
 
     return (
       <View style={styles.container}>
-        <Image style={styles.loginbg} source={require('../common/resources/login_bg.png')}>
-        </Image>
+        <ImageBackground style={styles.loginbg} source={Images_common.login_bg}>
         <StatusBar barStyle='light-content' />
 
         <View style={styles.logoContainer}>
           <Image style={styles.logo}
-            source={require('../common/resources/logo_login.png')}>
+            source={Images_common.login_logo}>
           </Image>
 
           <View style={styles.infoContainer}>
+
+          <Image style={styles.phone_icon}
+            source={Images_common.phone_icon}/>
             <TextInput style={[styles.input, !this.state.numberVal ? styles.error : null]}
               onChangeText={(text) => this.validate(text, 'number')}
-              placeholder='Mobile Number'
+              placeholder='Enter Mobile Number'
               placeholderTextColor='purple'
               keyboardType='number-pad'
               returnKeyType='next'
@@ -105,7 +112,7 @@ class Login extends Component {
           onPress={() => this.loginNavigate()} >
           <Text style={styles.buttonText}>LOGIN</Text>
         </TouchableOpacity>
-
+</ImageBackground>
       </View>
 
     )
@@ -122,6 +129,7 @@ class Login extends Component {
     console.log('uniw',uniqueId)
     var FormData = require('form-data');
     var form = new FormData();
+    var userArray_detail=[];
     form.append('mobile', number);
     form.append('password', uniqueId);
     form.append('isRetry', '0');
@@ -134,9 +142,14 @@ class Login extends Component {
       this.props.login(form, (response) => {
         if (response != undefined && response.data.status == true && response.status ==200) {
           console.log('loginNavigate',response);
+          this.signInAsync();
        //   alert(JSON.stringify(response))
        let name = response.data.name;
+       userArray_detail.push({'name':name})
+       AsyncStorage.setItem('userDetail', JSON.stringify(userArray_detail));
+
              this.props.navigation.navigate('Home', { name: name})
+       
         }
         else {
          alert(response.data.messaage)
